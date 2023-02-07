@@ -103,6 +103,43 @@ header .inner {
     text-transform: uppercase;
 }
 
+.about-the-studio h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    margin-left: .5rem;
+}
+
+.about-the-studio {
+    padding: 3rem 1rem;
+    background-color: #FAFAFA;
+}
+
+.about-the-studio p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300px;
+    padding: 1rem;
+    margin-right: 3rem;
+}
+
+.stroke {
+    border-left: #F2F2F2 solid 3px;
+    margin-left: .5rem;
+}
+
+footer {
+    margin-left: 24px;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+
 @media screen and (min-width: 680px) {
     .work-grid {
         display: grid;
@@ -123,6 +160,25 @@ header .inner {
     nav ul {
         display: flex;
         gap: 3rem;
+    }
+
+    .about-the-studio {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        padding: 5rem;
+    }
+
+    .about-the-studio h2 {
+        margin-left: 15rem;
+    }
+
+    .stroke {
+        margin-right: 12rem;
+    }
+
+    footer {
+        margin-left: 15rem;
+        padding: 1.5rem;
     }
 
 }
