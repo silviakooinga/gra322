@@ -1,0 +1,165 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    px: 52;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    px: 26;
+    font-weight: 400;
+    padding-top: 5rem;
+}
+
+p {
+    px: 17;
+    font-weight: 400;
+    padding-top: 2rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.header_background {
+    max-width: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.zia_logo {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 160px;
+    width: 160px;
+}
+
+.buttonwrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    display: none;
+}
+
+.records {
+    padding: 5rem;
+    text-align: center;
+    width: 30rem;
+}
+
+.figcaption {
+    background: .5rem .25rem #EED22A;
+    width: 10rem;
+    margin-left: 5rem;
+    padding: .5rem;
+    height: 46px;
+    text-align:  center;
+}
+
+.products {
+    padding: 3rem;
+    text-align: center;
+    width: 30rem;  
+}
+
+.images {
+    padding: 1.5rem;
+}
+
+.about_us {
+    padding: 5rem;
+    text-align: center;
+}
+
+.contact_us {
+    padding: 1rem;
+    text-align: left;
+}
+
+.contact_us h1 {
+    padding: 5rem;
+}
+
+.contact_us h2 {
+    padding-top: 4rem;
+    margin-left: .5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #EED22A;
+    padding: 1rem;
+    text-align: left;
+    margin-top: 10rem;
+}
+
+footer h2 {
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1040px){
+    
+    h1 {
+        padding: 3rem;
+        margin-left: 1rem;
+    }
+    
+    p {
+        margin-left: 10rem;
+    }
+
+    .header_background {
+        width: 1440px;
+        height: 331px;
+    }
+
+    .zialogo {
+        width: 220px;
+        height: 220px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        background: #EED22A;
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+    }
+
+    li {
+        margin: 1rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .records {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        width: 100%;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        width: auto;
+    }
+
+}
+
+
+
